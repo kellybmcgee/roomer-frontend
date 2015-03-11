@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2C950C51AAFC1EE00F04068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C950C41AAFC1EE00F04068 /* Foundation.framework */; };
+		A2C950C71AAFC1EE00F04068 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C950C61AAFC1EE00F04068 /* CoreGraphics.framework */; };
+		A2C950C91AAFC1EE00F04068 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C950C81AAFC1EE00F04068 /* UIKit.framework */; };
+		A2C950CF1AAFC1EE00F04068 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2C950CD1AAFC1EE00F04068 /* InfoPlist.strings */; };
+		A2C950D11AAFC1EE00F04068 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C950D01AAFC1EE00F04068 /* main.m */; };
+		A2C950D51AAFC1EE00F04068 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C950D41AAFC1EE00F04068 /* AppDelegate.m */; };
+		A2C950D81AAFC1EE00F04068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C950D61AAFC1EE00F04068 /* Main.storyboard */; };
+		A2C950DB1AAFC1EE00F04068 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C950DA1AAFC1EE00F04068 /* ViewController.m */; };
+		A2C950DD1AAFC1EE00F04068 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C950DC1AAFC1EE00F04068 /* Images.xcassets */; };
+		A2C950E41AAFC1EE00F04068 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C950E31AAFC1EE00F04068 /* XCTest.framework */; };
+		A2C950E51AAFC1EE00F04068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C950C41AAFC1EE00F04068 /* Foundation.framework */; };
+		A2C950E61AAFC1EE00F04068 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C950C81AAFC1EE00F04068 /* UIKit.framework */; };
+		A2C950EE1AAFC1EE00F04068 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2C950EC1AAFC1EE00F04068 /* InfoPlist.strings */; };
+		A2C950F01AAFC1EE00F04068 /* RoomerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C950EF1AAFC1EE00F04068 /* RoomerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2C950E71AAFC1EE00F04068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C950B91AAFC1EE00F04068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2C950C01AAFC1EE00F04068;
+			remoteInfo = Roomer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2C950C11AAFC1EE00F04068 /* Roomer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roomer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C950C41AAFC1EE00F04068 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2C950C61AAFC1EE00F04068 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2C950C81AAFC1EE00F04068 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2C950CC1AAFC1EE00F04068 /* Roomer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Roomer-Info.plist"; sourceTree = "<group>"; };
+		A2C950CE1AAFC1EE00F04068 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2C950D01AAFC1EE00F04068 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2C950D21AAFC1EE00F04068 /* Roomer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Roomer-Prefix.pch"; sourceTree = "<group>"; };
+		A2C950D31AAFC1EE00F04068 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2C950D41AAFC1EE00F04068 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2C950D71AAFC1EE00F04068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2C950D91AAFC1EE00F04068 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2C950DA1AAFC1EE00F04068 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2C950DC1AAFC1EE00F04068 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2C950E21AAFC1EE00F04068 /* RoomerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C950E31AAFC1EE00F04068 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A2C950EB1AAFC1EE00F04068 /* RoomerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoomerTests-Info.plist"; sourceTree = "<group>"; };
+		A2C950ED1AAFC1EE00F04068 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2C950EF1AAFC1EE00F04068 /* RoomerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2C950BE1AAFC1EE00F04068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C950C71AAFC1EE00F04068 /* CoreGraphics.framework in Frameworks */,
+				A2C950C91AAFC1EE00F04068 /* UIKit.framework in Frameworks */,
+				A2C950C51AAFC1EE00F04068 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C950DF1AAFC1EE00F04068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C950E41AAFC1EE00F04068 /* XCTest.framework in Frameworks */,
+				A2C950E61AAFC1EE00F04068 /* UIKit.framework in Frameworks */,
+				A2C950E51AAFC1EE00F04068 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2C950B81AAFC1EE00F04068 = {
+			isa = PBXGroup;
+			children = (
+				A2C950CA1AAFC1EE00F04068 /* Roomer */,
+				A2C950E91AAFC1EE00F04068 /* RoomerTests */,
+				A2C950C31AAFC1EE00F04068 /* Frameworks */,
+				A2C950C21AAFC1EE00F04068 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2C950C21AAFC1EE00F04068 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2C950C11AAFC1EE00F04068 /* Roomer.app */,
+				A2C950E21AAFC1EE00F04068 /* RoomerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2C950C31AAFC1EE00F04068 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2C950C41AAFC1EE00F04068 /* Foundation.framework */,
+				A2C950C61AAFC1EE00F04068 /* CoreGraphics.framework */,
+				A2C950C81AAFC1EE00F04068 /* UIKit.framework */,
+				A2C950E31AAFC1EE00F04068 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2C950CA1AAFC1EE00F04068 /* Roomer */ = {
+			isa = PBXGroup;
+			children = (
+				A2C950D31AAFC1EE00F04068 /* AppDelegate.h */,
+				A2C950D41AAFC1EE00F04068 /* AppDelegate.m */,
+				A2C950D61AAFC1EE00F04068 /* Main.storyboard */,
+				A2C950D91AAFC1EE00F04068 /* ViewController.h */,
+				A2C950DA1AAFC1EE00F04068 /* ViewController.m */,
+				A2C950DC1AAFC1EE00F04068 /* Images.xcassets */,
+				A2C950CB1AAFC1EE00F04068 /* Supporting Files */,
+			);
+			path = Roomer;
+			sourceTree = "<group>";
+		};
+		A2C950CB1AAFC1EE00F04068 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2C950CC1AAFC1EE00F04068 /* Roomer-Info.plist */,
+				A2C950CD1AAFC1EE00F04068 /* InfoPlist.strings */,
+				A2C950D01AAFC1EE00F04068 /* main.m */,
+				A2C950D21AAFC1EE00F04068 /* Roomer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2C950E91AAFC1EE00F04068 /* RoomerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2C950EF1AAFC1EE00F04068 /* RoomerTests.m */,
+				A2C950EA1AAFC1EE00F04068 /* Supporting Files */,
+			);
+			path = RoomerTests;
+			sourceTree = "<group>";
+		};
+		A2C950EA1AAFC1EE00F04068 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2C950EB1AAFC1EE00F04068 /* RoomerTests-Info.plist */,
+				A2C950EC1AAFC1EE00F04068 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2C950C01AAFC1EE00F04068 /* Roomer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C950F31AAFC1EE00F04068 /* Build configuration list for PBXNativeTarget "Roomer" */;
+			buildPhases = (
+				A2C950BD1AAFC1EE00F04068 /* Sources */,
+				A2C950BE1AAFC1EE00F04068 /* Frameworks */,
+				A2C950BF1AAFC1EE00F04068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roomer;
+			productName = Roomer;
+			productReference = A2C950C11AAFC1EE00F04068 /* Roomer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2C950E11AAFC1EE00F04068 /* RoomerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C950F61AAFC1EE00F04068 /* Build configuration list for PBXNativeTarget "RoomerTests" */;
+			buildPhases = (
+				A2C950DE1AAFC1EE00F04068 /* Sources */,
+				A2C950DF1AAFC1EE00F04068 /* Frameworks */,
+				A2C950E01AAFC1EE00F04068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2C950E81AAFC1EE00F04068 /* PBXTargetDependency */,
+			);
+			name = RoomerTests;
+			productName = RoomerTests;
+			productReference = A2C950E21AAFC1EE00F04068 /* RoomerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2C950B91AAFC1EE00F04068 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					A2C950E11AAFC1EE00F04068 = {
+						TestTargetID = A2C950C01AAFC1EE00F04068;
+					};
+				};
+			};
+			buildConfigurationList = A2C950BC1AAFC1EE00F04068 /* Build configuration list for PBXProject "Roomer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2C950B81AAFC1EE00F04068;
+			productRefGroup = A2C950C21AAFC1EE00F04068 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2C950C01AAFC1EE00F04068 /* Roomer */,
+				A2C950E11AAFC1EE00F04068 /* RoomerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2C950BF1AAFC1EE00F04068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C950DD1AAFC1EE00F04068 /* Images.xcassets in Resources */,
+				A2C950CF1AAFC1EE00F04068 /* InfoPlist.strings in Resources */,
+				A2C950D81AAFC1EE00F04068 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C950E01AAFC1EE00F04068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C950EE1AAFC1EE00F04068 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2C950BD1AAFC1EE00F04068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C950DB1AAFC1EE00F04068 /* ViewController.m in Sources */,
+				A2C950D51AAFC1EE00F04068 /* AppDelegate.m in Sources */,
+				A2C950D11AAFC1EE00F04068 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C950DE1AAFC1EE00F04068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C950F01AAFC1EE00F04068 /* RoomerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2C950E81AAFC1EE00F04068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2C950C01AAFC1EE00F04068 /* Roomer */;
+			targetProxy = A2C950E71AAFC1EE00F04068 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2C950CD1AAFC1EE00F04068 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C950CE1AAFC1EE00F04068 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2C950D61AAFC1EE00F04068 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C950D71AAFC1EE00F04068 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2C950EC1AAFC1EE00F04068 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C950ED1AAFC1EE00F04068 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2C950F11AAFC1EE00F04068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2C950F21AAFC1EE00F04068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2C950F41AAFC1EE00F04068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roomer/Roomer-Prefix.pch";
+				INFOPLIST_FILE = "Roomer/Roomer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2C950F51AAFC1EE00F04068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roomer/Roomer-Prefix.pch";
+				INFOPLIST_FILE = "Roomer/Roomer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A2C950F71AAFC1EE00F04068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Roomer.app/Roomer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roomer/Roomer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RoomerTests/RoomerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A2C950F81AAFC1EE00F04068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Roomer.app/Roomer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roomer/Roomer-Prefix.pch";
+				INFOPLIST_FILE = "RoomerTests/RoomerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2C950BC1AAFC1EE00F04068 /* Build configuration list for PBXProject "Roomer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C950F11AAFC1EE00F04068 /* Debug */,
+				A2C950F21AAFC1EE00F04068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2C950F31AAFC1EE00F04068 /* Build configuration list for PBXNativeTarget "Roomer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C950F41AAFC1EE00F04068 /* Debug */,
+				A2C950F51AAFC1EE00F04068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2C950F61AAFC1EE00F04068 /* Build configuration list for PBXNativeTarget "RoomerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C950F71AAFC1EE00F04068 /* Debug */,
+				A2C950F81AAFC1EE00F04068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2C950B91AAFC1EE00F04068 /* Project object */;
+}
